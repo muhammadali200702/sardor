@@ -1,0 +1,57 @@
+main {
+    .item {
+        width: 100%;
+        height: 700px;
+        background: url(..//..//images/item_fon.png) no-repeat;
+        background-size: cover;
+        margin-top: 40px;
+    }
+
+    .item_wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item_titlee {
+        color: rgb(255, 255, 255);
+        font-family: Roboto;
+        font-size: 50px;
+        font-weight: 700;
+        padding-top: 50px;
+    }
+
+    .item_suptitlee {
+        color: rgb(255, 255, 255);
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .item_list {
+        display: flex;
+        gap: 20px;
+padding-top: 80px;
+    }
+
+    .item_title {
+        color: rgb(51, 51, 51);
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 500;
+        padding-top: 28px;
+    }
+
+    .item_suptitle {
+        color: rgb(51, 51, 51);
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        width: 377px;
+        padding-top: 10px;
+    }
+}
