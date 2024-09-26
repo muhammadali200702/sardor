@@ -446,4 +446,25 @@ main .gran_suptitle {
   line-height: 34px;
   width: 390px;
   padding-top: 10px;
+}
+
+main .picollo_left_right {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main .picollo_title {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 48px;
+  font-weight: 500;
+}
+main .picollo_suptitle {
+  color: rgb(51, 51, 51);
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 34px;
+  width: 390px;
+  padding-top: 10px;
 }/*# sourceMappingURL=main.css.map */
