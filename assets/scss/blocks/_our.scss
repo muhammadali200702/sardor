@@ -1,4 +1,12 @@
 main {
+   
+
+    .our_left_right {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 80px;
+    }
     .main_title {
         color: rgb(0, 0, 0);
         font-family: Roboto;
@@ -6,13 +14,6 @@ main {
         font-weight: 700;
         text-align: center;
         padding-top: 50px;
-    }
-
-    .our_left_right {
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        padding-top: 80px;
     }
 
     .our_title {
