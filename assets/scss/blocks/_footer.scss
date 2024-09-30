@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    align-items: center;
+    background: url(..//..//images/5.png) no-repeat;
+    width: 100%;
+    height: 160px;
+    background-size: cover;
+
+    .footer_wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer_list {
+        display: flex;
+        gap: 40px;
+    }
+
+    li a {
+        color: rgb(51, 51, 51);
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    .footer_icons
+    {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+    }
+}
